@@ -14,10 +14,14 @@ ReactJS: https://reactjs.org/
 
 TypeScript: https://www.typescriptlang.org/
 
+--
+
 
 You can run the container from your project's root dir with:
 
 `docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 5173:5173 damianboni/vite:react-ts`
+
+--
 
 alternatively you can:
 
