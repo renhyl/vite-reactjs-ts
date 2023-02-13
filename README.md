@@ -2,6 +2,8 @@ This is simple template repo to get your project started including:
 
 Docker image: https://hub.docker.com/repository/docker/damianboni/vite/general
 
+Consist of:
+
 PNPM: https://pnpm.io/
 
 ViteJS: https://vitejs.dev/
