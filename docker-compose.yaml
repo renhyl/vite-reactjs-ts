@@ -1,14 +1,16 @@
 services:
   app:
     # build image using Dockerfile
-    build: .
+    build:
+      context: .
+      # build stage named dev, see Dockerfile for reference
+      target: dev
     container_name: vite-react-ts-app
-    image: damianboni:vite-react-ts
+    image: damianboni/vite:react-ts
     ports:
       # host/container
       - '5173:5173'
     volumes:
-      # binds current directory so any file changes will update
       - .:/app
-      # volume is set so that container's /node_modules is used rather than host's
+      # blind mount so that host's dir is updated from container
       - /app/node_modules

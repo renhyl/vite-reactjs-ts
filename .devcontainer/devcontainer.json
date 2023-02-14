@@ -1,0 +1,7 @@
+{
+	"name": "ViteJS ReactJS TypeScript",
+	"dockerComposeFile": "../docker-compose.yaml",
+	"service": "app",
+	"workspaceFolder": "/app",
+	"remoteUser": "node"
+}
