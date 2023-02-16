@@ -24,22 +24,8 @@ ENV PATH=/app/node_modules/.bin:$PATH
 RUN pnpm i && pnpm store prune
 # switch user to install git inside container
 USER root
-RUN apt-get -y install git
+RUN apt-get -y install git && apt-get -y install eslint
 # once git is installed, set user to node to comply with git repo security
 USER node
 # vite start
 CMD ["pnpm", "run", "dev", "--host"]
-
-FROM base as source
-COPY --chown=node:node . .
-
-FROM source as test
-ENV NODE_ENV=development
-ENV PATH=/app/node_modules/.bin:$PATH
-COPY --from=dev /app/node_modules /app/node_modules
-RUN npx eslint .
-RUN pnpm test
-CMD ["pnpm", "run", "test"]
-
-FROM source as prod
-CMD ["pnpm", "run", "build"]

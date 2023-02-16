@@ -3,5 +3,10 @@
 	"dockerComposeFile": "../docker-compose.yaml",
 	"service": "app",
 	"workspaceFolder": "/app",
-	"remoteUser": "node"
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+		  "extensions": ["dbaeumer.vscode-eslint"]
+		}
+	}
 }
