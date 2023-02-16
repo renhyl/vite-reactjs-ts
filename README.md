@@ -1,4 +1,5 @@
-<img width="105" alt="Screenshot 2023-02-16 at 17 35 36" src="https://user-images.githubusercontent.com/47245766/219429515-0e89da43-d841-465c-b67d-32d4d598c8c3.png"><img width="95" alt="Screenshot 2023-02-16 at 17 35 51" src="https://user-images.githubusercontent.com/47245766/219429536-9cbd9e8e-5843-4173-b5a7-1981c6bb1777.png"><img width="107" alt="Screenshot 2023-02-16 at 17 37 29" src="https://user-images.githubusercontent.com/47245766/219429812-a844ae02-02ac-4a3a-83f1-dc07459d9d49.png"><img width="179" alt="Screenshot 2023-02-16 at 17 38 10" src="https://user-images.githubusercontent.com/47245766/219429956-85ea0d51-fc42-42bd-a3ac-6123da834cc7.png"><img width="212" alt="Screenshot 2023-02-16 at 17 38 52" src="https://user-images.githubusercontent.com/47245766/219430147-9d4394e7-0c83-4114-99f9-b0194f884a0f.png">
+<img width="105" alt="Screenshot 2023-02-16 at 17 35 36" src="https://user-images.githubusercontent.com/47245766/219429515-0e89da43-d841-465c-b67d-32d4d598c8c3.png"><img width="95" alt="Screenshot 2023-02-16 at 17 35 51" src="https://user-images.githubusercontent.com/47245766/219429536-9cbd9e8e-5843-4173-b5a7-1981c6bb1777.png"><img width="107" alt="Screenshot 2023-02-16 at 17 37 29" src="https://user-images.githubusercontent.com/47245766/219429812-a844ae02-02ac-4a3a-83f1-dc07459d9d49.png"><img width="179" alt="Screenshot 2023-02-16 at 17 38 10" src="https://user-images.githubusercontent.com/47245766/219429956-85ea0d51-fc42-42bd-a3ac-6123da834cc7.png"><img width="212" alt="Screenshot 2023-02-16 at 17 38 52" src="https://user-images.githubusercontent.com/47245766/219430147-9d4394e7-0c83-4114-99f9-b0194f884a0f.png"><img width="133" alt="Screenshot 2023-02-16 at 18 08 42" src="https://user-images.githubusercontent.com/2118334/219437617-6b416c7e-e964-429c-bcfb-5b7fe185070c.png">
+
 
 <img width="1439" alt="Screenshot 2023-02-16 at 17 27 28" src="https://user-images.githubusercontent.com/47245766/219429065-056a07cb-3bd7-4226-b5c2-482a0ef6ea54.png">
 
@@ -13,7 +14,9 @@
 - [TypeScript](https://www.typescriptlang.org/), repo: https://github.com/microsoft/TypeScript
 > TypeScript is JavaScript with syntax for types.
 - [PNPM](https://pnpm.io/), repo: https://github.com/pnpm/pnpm
-> "Fast, disk space efficient package manager".
+> Fast, disk space efficient package manager.
+- [ESLint](https://eslint.org/), repo: https://github.com/eslint/eslint
+> ESLint statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
 
 - [VSCode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) (optional)
 > The Dev Containers extension lets you use a Docker container as a full-featured development environment.
@@ -27,6 +30,8 @@
 - VSCode Dev Containers support (optional); ref: https://code.visualstudio.com/docs/devcontainers/containers
 
 - PNPM rather than NPM; ref: https://pnpm.io/
+
+- ESLint
 
 - Wisdom from Docker Captain [Bret Fisher](https://github.com/BretFisher) Node.js + Docker good defaults: https://github.com/BretFisher/node-docker-good-defaults
 
